@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 20px;
+}
+
+.container > label {
+  display: flex;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.container > input {
+  margin-top: 10px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.more-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+}
+
+.tenure-contaier {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.selected {
+  background-color: #009ad6;
+  color: white;
 }
